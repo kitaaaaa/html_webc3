@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>media</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" type="text/css" href="inde8p_.css">
+</head>
+<body>
+	<div class="steps">
+		<div class="step">
+			<span class="tt">step1</span>
+			<img class="step-image" src="flow01.png">
+			<h1>タイトルが入ります。</h1>
+			<h2>文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</h2>
+		</div>
+		<div class="step">
+			<span class="tt">step2</span>
+			<img class="step-image" src="flow02.png">
+			<h1>タイトルが入ります。</h1>
+			<h2>文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</h2>
+		</div>
+		<div class="step">
+			<span class="tt">step3</span>
+			<img class="step-image" src="flow03.png">
+			<h1>タイトルが入ります。</h1>
+			<h2>文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。文章が入ります。</h2>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@media screen and(max-width:1024px ){
+	.social i{
+		color: green;
+	}
+}
+
+@media screen and(max-width: 768px;){
+	header{
+		width: 100%
+	}
+
+	.nav-list{
+		width: 100%;
+	}
+
+	.nav-list-item{
+		width: 100%;
+	}
+
+	.social i{
+		color: red;
+	}
+
+	.main-visual-contents{
+		width: 100%
+	}
+
+	.blog{
+		width: 100%;
+		float:none;
+	}
+}
+
+@media screen and (max-width: 425px;){
+	header{
+		width: 100%
+	}
+	.social i{
+		color: blue;
+	}
+}
