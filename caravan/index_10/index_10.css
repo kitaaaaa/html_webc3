@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .clearfix{
 	content: "";
 	display: block;
@@ -5,10 +11,14 @@
 }
 
 header{
-	width: 1024px;
+	width: 100%;
 	height: 70px;
 	background-color: #EC715F;
 	color: white;
+}
+
+.header-logo{
+	width: 1024px;
 }
 
 .header-left{
@@ -16,12 +26,18 @@ header{
 }
 
 .header-right{
-	padding:0 30px;
+	
+}
+
+.nav-list-item{
+	float: right;
+	padding: 30px 0;
 	font-size: 16px;
 }
 
 .main-visual{
-	background-image: url(img/code.png);
+	background-image: url(img/mv.png);
+	background-size: cover;
 	width: 100%;
 	height: 650px;
 	text-align: center;
@@ -45,15 +61,83 @@ h1{
 	text-align: center;
 }
 
-.portfolio p{
-	font-size: 16px;
-	color: #000000;
+.portfolio-box{
+	width: 920px;
+	padding: 90px 0;
 }
 
 .porfolio h2{
-	padding: 90px 0 8px 0;
+	padding-bottom: 8px;
 	font-size: 32px;
 	color: #000000;
+}
+
+.border{
+
+}
+
+.message{
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+.img-box{
+	height: 510px;
+}
+
+.photo1{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+}
+
+.photo2{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/websuku.png);
+	background-size: cover;
+}
+
+.photo3{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/write.jpg);
+	background-size: cover;
+}
+
+.photo4{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+}
+
+.photo5{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+}
+
+.photo6{
+	height: 250px;
+	width: 300px;
+	float: left;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+}
+
+.feature{
+	width: 980px;
+	padding: 90px 0;
+	text-align: center;
+	background-color: white;
 }
 
 
